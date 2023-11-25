@@ -292,7 +292,9 @@ is maintained by the W3C.
 
 [jGleitz/markdown-it-kbd](https://github.com/jGleitz/markdown-it-kbd)
 
-```[[x]]```
+```
+[[x]]
+```
 
 [[x]]
 
@@ -300,7 +302,9 @@ is maintained by the W3C.
 
 [markdown-it/markdown-it-ins](https://github.com/markdown-it/markdown-it-ins)
 
-```++inserted++```
+```
+++inserted++
+```
 
 ++inserted++
 
@@ -308,6 +312,8 @@ is maintained by the W3C.
 
 [markdown-it/markdown-it-mark](https://github.com/markdown-it/markdown-it-mark)
 
-```==marked==```
+```
+==marked==
+```
 
 ==marked==
