@@ -233,10 +233,22 @@ and another term
 
 ## Block IAL
 
+```md
+> A nice blockquote
+{: #blockquote-id .blockquote-class title="Blockquote title"}
+```
+
 > A nice blockquote
 {: #blockquote-id .blockquote-class title="Blockquote title"}
 
 ## Footnote
+
+```md
+This is a text with a
+footnote[^1].
+
+[^1]: And here is the definition.
+```
 
 This is a text with a
 footnote[^1].
@@ -248,17 +260,27 @@ footnote[^1].
 [markdown-it/markdown-it-sub](https://github.com/markdown-it/markdown-it-sub) \
 [markdown-it/markdown-it-sup](https://github.com/markdown-it/markdown-it-sup)
 
+```md
+29^th^
+
+H~2~O
+```
+
 29^th^
 
 H~2~O
 
-29<sup>th</sup>
-
-H<sub>2</sub>0
-
 ## Abbreviation
 
 [markdown-it/markdown-it-abbr](https://github.com/markdown-it/markdown-it-abbr)
+
+```
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+
+The HTML specification
+is maintained by the W3C.
+```
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]:  World Wide Web Consortium
@@ -266,29 +288,26 @@ H<sub>2</sub>0
 The HTML specification
 is maintained by the W3C.
 
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
-is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
-
 ## `<kbd>`
 
 [jGleitz/markdown-it-kbd](https://github.com/jGleitz/markdown-it-kbd)
 
-[[x]]
+```[[x]]```
 
-<kbd>x</kbd>
+[[x]]
 
 ## `<ins>`
 
 [markdown-it/markdown-it-ins](https://github.com/markdown-it/markdown-it-ins)
 
-++inserted++
+```++inserted++```
 
-<ins>inserted</ins>
+++inserted++
 
 ## `<mark>`
 
 [markdown-it/markdown-it-mark](https://github.com/markdown-it/markdown-it-mark)
-  
-==marked==
 
-<mark>marked</mark>
+```==marked==```
+
+==marked==
