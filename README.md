@@ -213,6 +213,16 @@ Most extended stuff below are not universal.
 
 [Quick Reference | kramdown](https://kramdown.gettalong.org/quickref.html)
 
+```md
+term
+: definition
+: another definition
+
+another term
+and another term
+: and a definition for the term
+```
+
 term
 : definition
 : another definition
